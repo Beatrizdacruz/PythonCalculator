@@ -1,4 +1,4 @@
-# Escolha dos operadores (declarações condicionais)
+# Escolha dos operadores
 print('Olá!')
 def calculate():
         operação = print('Escolha o operador matemático: \n+ = soma \n- = subtração \n* = multiplicação \n/ = divisão \n% = porcentagem')
@@ -19,7 +19,7 @@ def calculate():
                 print(f'{n2}% de {n1} é igual a {n1 * (n2 / 100)} ')
         else:
                 print('tente novamente')
-
+#repetição
 def again():
         novo = str(input('Deseja realizar outra operação? (sim/não): ')).strip().upper()[0]
         if novo == 'S':
