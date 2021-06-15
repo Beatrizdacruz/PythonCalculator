@@ -3,8 +3,8 @@ print('Olá!')
 def calculate():
         operação = print('Escolha o operador matemático: \n+ = soma \n- = subtração \n* = multiplicação \n/ = divisão \n% = porcentagem')
         decisão = str(input('Sua escolha: '))
-        n1 = int(input('Insira o primeiro valor: '))
-        n2 = int(input('Insira o segundo valor: '))
+        n1 = float(input('Insira o primeiro valor: '))
+        n2 = float(input('Insira o segundo valor: '))
 
 # Definindo funções
         if decisão == '+':
